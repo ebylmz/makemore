@@ -1,0 +1,13 @@
+name: makemore
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - ipykernel
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - scikit-learn
